@@ -1,4 +1,4 @@
-= K-Libs Multi-Platform Library Repo Template
+= JSON (De)Serializer
 :source-highlighter: highlightjs
 :gh-group: k-libs
 :gh-name: k-some-lib
@@ -14,7 +14,7 @@ image:https://img.shields.io/badge/docs-dokka-ff69b4[link="https://{gh-group}.gi
 image:https://img.shields.io/maven-central/v/{lib-group}/{lib-name}[link="https://search.maven.org/artifact/{lib-group}/{lib-name}"]
 ////
 
-A template repository with the boilerplate taken care of.
+
 
 ////
 == Import
