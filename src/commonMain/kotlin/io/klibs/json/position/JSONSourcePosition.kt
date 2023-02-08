@@ -1,7 +1,5 @@
 package io.klibs.json.position
 
-import io.klibs.json.util.pool.JSONPoolableResource
-
 /**
  * Represents a "cursor" position in an input JSON stream or document.
  *
@@ -44,7 +42,7 @@ import io.klibs.json.util.pool.JSONPoolableResource
  * @author Elizabeth Paige Harper - https://github.com/foxcapades
  * @since v0.1.0
  */
-sealed interface JSONSourcePosition : JSONPoolableResource {
+sealed interface JSONSourcePosition {
 
   /**
    * The overall index of the position in the input JSON stream or document.
@@ -70,3 +68,4 @@ sealed interface JSONSourcePosition : JSONPoolableResource {
       else                     -> 0
     }
 }
+

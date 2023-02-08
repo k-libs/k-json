@@ -1,4 +1,3 @@
 package io.klibs.json
 
-object JSON {
-}
+expect object JSON

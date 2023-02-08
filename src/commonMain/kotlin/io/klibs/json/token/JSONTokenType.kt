@@ -1,6 +1,8 @@
 package io.klibs.json.token
 
 enum class JSONTokenType {
+  StreamStart,
+  StreamEnd,
   ObjectStart,
   ObjectEnd,
   ArrayStart,

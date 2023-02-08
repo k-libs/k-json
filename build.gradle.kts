@@ -49,6 +49,7 @@ kotlin {
     val commonMain by getting {
       dependencies {
         implementation("io.k-libs:stack:0.3.0")
+        implementation("io.k-libs:queue:0.4.0")
       }
     }
     val commonTest by getting {
