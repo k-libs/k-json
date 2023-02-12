@@ -1,12 +1,29 @@
 package io.klibs.json.consts
 
+internal const val ASCII_TAB: UByte = 0x09u
+internal const val ASCII_LINE_FEED: UByte = 0x10u
+internal const val ASCII_CARRIAGE_RETURN: UByte = 0x13u
+internal const val ASCII_SPACE: UByte = 0x20u
 internal const val ASCII_DOUBLE_QUOTE: UByte = 0x22u
+internal const val ASCII_HYPHEN: UByte = 0x2Du
 internal const val ASCII_COMMA: UByte = 0x2Eu
+internal const val ASCII_DIGIT_0: UByte = 0x30u
+internal const val ASCII_DIGIT_9: UByte = 0x39u
+internal const val ASCII_UPPERCASE_A: UByte = 0x41u
+internal const val ASCII_UPPERCASE_Z: UByte = 0x5Au
 internal const val ASCII_SQUARE_OPEN: UByte = 0x5Bu
 internal const val ASCII_BACKSLASH: UByte = 0x5Cu
 internal const val ASCII_SQUARE_CLOSE: UByte = 0x5Du
+internal const val ASCII_UNDERSCORE: UByte = 0x5Fu
+internal const val ASCII_LOWERCASE_A: UByte = 0x61u
+internal const val ASCII_LOWERCASE_E: UByte = 0x65u
 internal const val ASCII_LOWERCASE_F: UByte = 0x66u
+internal const val ASCII_LOWERCASE_L: UByte = 0x6Cu
 internal const val ASCII_LOWERCASE_N: UByte = 0x6Eu
+internal const val ASCII_LOWERCASE_R: UByte = 0x72u
+internal const val ASCII_LOWERCASE_S: UByte = 0x73u
 internal const val ASCII_LOWERCASE_T: UByte = 0x74u
+internal const val ASCII_LOWERCASE_U: UByte = 0x75u
+internal const val ASCII_LOWERCASE_Z: UByte = 0x7Au
 internal const val ASCII_CURLY_OPEN: UByte = 0x7Bu
 internal const val ASCII_CURLY_CLOSE: UByte = 0x7Du
